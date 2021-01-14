@@ -1,0 +1,9 @@
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Release\Areopag.WF.PulsationDampanerSelection.Properties.Resources.resources
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Release\Areopag.WF.PulsationDampanerSelection.csproj.GenerateResource.cache
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Release\Areopag.WF.PulsationDampanerSelection.csprojAssemblyReference.cache
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Release\Areopag.WF.PulsationDampanerSelection.PulsationDampanerSelectionForm.resources
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\bin\Release\Расчет объема ПГА.pdb
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Release\Расчет объема ПГА.pdb
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\bin\Release\Расчет объема ПГА.exe.config
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\bin\Release\Расчет объема ПГА.exe
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Release\Расчет объема ПГА.exe

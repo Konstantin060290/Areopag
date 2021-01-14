@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Areopag.WPF.PowerCalc_old", "Areopag.WPF.PowerCalc\Areopag.WPF.PowerCalc_old.csproj", "{E298FAD0-21E5-409B-984F-9537FCA54915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Areopag.WPF.PowerCalc_1", "Areopag.WPF.PowerCalc_1\Areopag.WPF.PowerCalc_1.csproj", "{35C67FEA-FBC9-4408-9DD0-392EDB8CEE68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E298FAD0-21E5-409B-984F-9537FCA54915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E298FAD0-21E5-409B-984F-9537FCA54915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E298FAD0-21E5-409B-984F-9537FCA54915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E298FAD0-21E5-409B-984F-9537FCA54915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C67FEA-FBC9-4408-9DD0-392EDB8CEE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C67FEA-FBC9-4408-9DD0-392EDB8CEE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C67FEA-FBC9-4408-9DD0-392EDB8CEE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C67FEA-FBC9-4408-9DD0-392EDB8CEE68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {100D334E-4916-400F-9183-0B722071EFA0}
+	EndGlobalSection
+EndGlobal

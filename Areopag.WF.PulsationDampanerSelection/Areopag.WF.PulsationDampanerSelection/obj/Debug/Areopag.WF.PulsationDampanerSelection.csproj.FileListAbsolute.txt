@@ -1,0 +1,9 @@
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\bin\Debug\Areopag.WF.PulsationDampanerSelection.exe.config
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\bin\Debug\Areopag.WF.PulsationDampanerSelection.exe
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\bin\Debug\Areopag.WF.PulsationDampanerSelection.pdb
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Debug\Areopag.WF.PulsationDampanerSelection.csprojAssemblyReference.cache
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Debug\Areopag.WF.PulsationDampanerSelection.Form1.resources
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Debug\Areopag.WF.PulsationDampanerSelection.Properties.Resources.resources
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Debug\Areopag.WF.PulsationDampanerSelection.csproj.GenerateResource.cache
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Debug\Areopag.WF.PulsationDampanerSelection.exe
+D:\Coding\Areopag\Areopag.WF.PulsationDampanerSelection\Areopag.WF.PulsationDampanerSelection\obj\Debug\Areopag.WF.PulsationDampanerSelection.pdb

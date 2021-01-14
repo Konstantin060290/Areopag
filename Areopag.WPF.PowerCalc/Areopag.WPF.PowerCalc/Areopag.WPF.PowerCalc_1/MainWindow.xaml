@@ -1,0 +1,56 @@
+﻿<Window x:Name="My_main_window" x:Class="Areopag.WPF.PowerCalc_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Areopag.WPF.PowerCalc_1"
+        mc:Ignorable="d"
+        Title="Расчет параметров дозировочного агрегата" Height="700" Width="800" Loaded="My_main_window_Loaded">
+    <Grid>
+        <TabControl Margin="0,26,0,0" Background="#FFACACAC">
+            <TabItem x:Name="One_two_head_tab" Header="Расчет одно/двух-головочного агрегата" Margin="-2,-2,-164,0" >
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                        <GradientStop Color="#FFE5E5E5" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FFE5E5E5">
+
+                    <TextBox x:Name="P2_textbox" HorizontalAlignment="Left" Height="42" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Margin="208,52,0,0" TextChanged="P2_textbox_TextChanged" TabIndex="1"/>
+                    <TextBox x:Name="Qapacity_textbox" HorizontalAlignment="Left" Height="42" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" RenderTransformOrigin="2.244,5.476" Margin="208,10,0,0" TextChanged="Qapacity_textbox_TextChanged" TabIndex="0"/>
+                    <Label x:Name="Qapacity_label" Content="Подача агрегата, л/ч" HorizontalAlignment="Left" VerticalAlignment="Top" Width="159" Height="42" Margin="10,10,0,0"/>
+                    <Label x:Name="P2_label" Content="Давление на выходе P2, бар" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" Height="42" Margin="10,52,0,0"/>
+                    <Label x:Name="P1_label" Content="Давление на входе P1, бар (абс.)" HorizontalAlignment="Left" VerticalAlignment="Top" Width="198" Height="42" Margin="10,94,0,0"/>
+                    <TextBox x:Name="P1_textbox" HorizontalAlignment="Left" Height="42" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Margin="208,94,0,0" Text="1" TextChanged="P1_textbox_TextChanged" TabIndex="2"/>
+                    <TextBox x:Name="Result_textbox" Margin="388,10,0,0" Grid.ColumnSpan="2" TabIndex="10" />
+                    <Button x:Name="Result_button" Content="Выполнить расчет" HorizontalAlignment="Left" Margin="10,563,0,0" VerticalAlignment="Top" Width="120" Height="42" Click="Result_button_click" TabIndex="6"/>
+                    <TextBox x:Name="Vol_eff_textbox" HorizontalAlignment="Left" Height="42" Margin="103,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="41" TextChanged="Vol_eff_textbox_TextChanged" TabIndex="3" Text="0,9"/>
+                    <Label x:Name="mech_eff_label" Content="η мех." HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="42" Margin="150,151,0,0"/>
+                    <Label x:Name="vol_eff_label" Content="η объемный" HorizontalAlignment="Left" VerticalAlignment="Top" Width="78" Height="42" Margin="20,151,0,0"/>
+                    <TextBox x:Name="Mech_eff_textbox" HorizontalAlignment="Left" Height="42" Margin="195,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" TextChanged="Mech_eff_textbox_TextChanged" TabIndex="4" Text="0,8"/>
+                    <Label x:Name="hydr_eff_label" Content="η гидравл." HorizontalAlignment="Left" VerticalAlignment="Top" Width="63" Height="42" Margin="246,151,0,0"/>
+                    <TextBox x:Name="Hydr_eff_textbox" HorizontalAlignment="Left" Height="42" Margin="314,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" RenderTransformOrigin="4.897,1.619" TextChanged="Hydr_eff_textbox_TextChanged" TabIndex="5" Text="0,9"/>
+                    <TextBox x:Name="Safety_coeff_textbox" HorizontalAlignment="Left" Height="42" Margin="139,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" RenderTransformOrigin="4.897,1.619" TabIndex="7" TextChanged="Safety_coeff_textbox_TextChanged"/>
+                    <CheckBox x:Name="Enter_safety_coeff_checkbox" Content="Ручной ввод коэффициента запаса" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" Checked="Enter_safety_coeff_checkbox_Checked" Unchecked="Enter_safety_coeff_checkbox_Unchecked" TabIndex="6"/>
+                    <CheckBox x:Name="Calc_add_parameters_checkbox" Content="Расчет дополнительных параметров" HorizontalAlignment="Left" Margin="10,309,0,0" VerticalAlignment="Top" Checked="Calc_add_parameters_checkbox_Checked" Unchecked="Calc_add_parameters_checkbox_Unchecked" TabIndex="8"/>
+                    <TextBox x:Name="Strokes_textbox" HorizontalAlignment="Left" Height="42" Margin="258,339,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" RenderTransformOrigin="4.897,1.619" TabIndex="7" TextChanged="Strokes_textbox_TextChanged"/>
+                    <Label x:Name="Strokes_label" Content="Число двойных ходов плунжера в минуту" HorizontalAlignment="Left" VerticalAlignment="Top" Width="243" Height="42" Margin="10,339,0,0"/>
+                    <Label x:Name="Stroke_label" Content="Величина хода плунжера, мм" HorizontalAlignment="Left" VerticalAlignment="Top" Width="231" Height="42" Margin="10,381,0,0"/>
+                    <TextBox x:Name="Stroke_lenght_textbox" HorizontalAlignment="Left" Height="42" Margin="258,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" RenderTransformOrigin="4.897,1.619" TabIndex="7" TextChanged="Stroke_lenght_textbox_TextChanged"/>
+                    <Label x:Name="Safety_coeff_label" Content="Коэффициент запаса" HorizontalAlignment="Left" VerticalAlignment="Top" Width="124" Height="42" Margin="10,250,0,0"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="multihead_tab" Header="Расчет блочного агрегата" Margin="164,-2,-368,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <Menu x:Name="Menu_bar" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="auto">
+            <MenuItem x:Name="MyMenu" Header="Файл" Height="26" Background="#FFE5E5E5" BorderBrush="#FFABADB3">
+                <MenuItem x:Name="Save_us_item" Header="Сохранить как" Click="Save_us_Click"/>
+                <MenuItem x:Name="Exit_menu_item" Header="Выход" Click="MenuItem_Exit_Click"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
