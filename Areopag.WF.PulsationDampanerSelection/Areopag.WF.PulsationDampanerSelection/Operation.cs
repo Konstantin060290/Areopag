@@ -10,7 +10,7 @@ namespace Areopag.WF.PulsationDampanerSelection
     {
         public const string about = "Данная программа позволяет произвести расчет полного" +
             " газового объема ПГА по первому и второму способам книги Бурданова В.Н. \"Дозирование жидкости объемными насосами\"";
-        public const string version= "Версия - 0.0.2";
+        public const string version= "Версия - 0.0.3";
         public const string year_author = "Автор - Филюрин К.В. 2020 год";
         public double Q_max { get; set; }
         public double Strokes { get; set; }

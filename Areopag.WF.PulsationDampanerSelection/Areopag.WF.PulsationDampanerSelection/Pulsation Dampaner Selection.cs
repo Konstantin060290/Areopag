@@ -177,13 +177,13 @@ namespace Areopag.WF.PulsationDampanerSelection
 
         }
 
-        private void ThreeHeadRb1_CheckedChanged(object sender, EventArgs e)
+        private void TwoHeadRb_CheckedChanged(object sender, EventArgs e)
         {
             Op1.K = 0.25;
             k_coefficient.Text = "Коэффициент k=" + Convert.ToString(Op1.K);
         }
 
-        private void ThreeHeadRb2_CheckedChanged(object sender, EventArgs e)
+        private void ThreeHeadRb_CheckedChanged(object sender, EventArgs e)
         {
             Op1.K = 0.13;
             k_coefficient.Text = "Коэффициент k=" + Convert.ToString(Op1.K);
